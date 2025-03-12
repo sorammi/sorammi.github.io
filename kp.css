@@ -1,0 +1,408 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(255, 234, 240,0.8);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+
+}
+h1 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 70px;
+    background-image: url(images/logo.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    text-indent: -9999999999px;
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+header a {
+    color: rgb(33, 0, 13);
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+    color: rgb(244, 9, 115);
+}
+.new {
+    background-color: #fd8496;
+    color: rgb(254, 247, 247);
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new p {
+    margin-bottom: 20px;
+}
+.new input,.new button {
+    background-color: transparent;
+    color:rgb(252, 252, 252) ;
+    border: 1px solid #f7fffc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.new input {
+    width: 200px;
+    margin-right: 15px;
+}
+.new button {
+    width: 80px;
+    cursor: pointer;
+}
+input::placeholder {
+    color: #DDDDDD;
+}
+input:focus {
+    outline: none;
+    border-color: rgb(255, 59, 89);
+}
+footer {
+    background-color:rgb(247, 67, 103) ;
+    color: rgb(101, 101, 101);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+body {
+    background-color:  #ffb6c1;
+}
+.kt h2 {
+    background-color: #fd8496 ;
+    color: rgb(243, 213, 185);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+    height: 10px;
+}
+.yuanshu {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 180px 10px;
+}
+.yuanshu div {
+    font-style: initial;
+    width:300px;
+    text-align: center;
+}
+.yuanshu img {
+    width: 60%;
+    border-radius: 10px;
+}
+.yuanshu h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1px 0;
+}
+.yuanshu p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.guangye {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 180px 10px;
+}
+.guangye div {
+    font-style: initial;
+    width:300px;
+    text-align: center;
+}
+.guangye img {
+    width: 60%;
+    border-radius: 10px;
+}
+.guangye h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1px 0;
+}
+.guangye p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.disan {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 180px 10px;
+}
+.disan div {
+    font-style: initial;
+    width:300px;
+    text-align: center;
+}
+.disan img {
+    width: 60%;
+    border-radius: 10px;
+}
+.disan h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1px 0;
+}
+.disan p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.disi {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 180px 10px;
+}
+.disi div {
+    font-style: initial;
+    width:300px;
+    text-align: center;
+}
+.disi img {
+    width: 60%;
+    border-radius: 10px;
+}
+.disi h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1px 0;
+}
+.disi p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.diwu {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 180px 10px;
+}
+.diwu div {
+    font-style: initial;
+    width:300px;
+    text-align: center;
+}
+.diwu img {
+    width: 60%;
+    border-radius: 10px;
+}
+.diwu h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1px 0;
+}
+.diwu p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.diliu {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 180px 10px;
+}
+.diliu div {
+    font-style: initial;
+    width:300px;
+    text-align: center;
+}
+.diliu img {
+    width: 60%;
+    border-radius: 10px;
+}
+.diliu h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1px 0;
+}
+.diliu p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.zh {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 180px 120px;
+}
+.zh div {
+    font-style: initial;
+    width:300px;
+    text-align: center;
+}
+.zh img {
+    width: 60%;
+    border-radius: 10px;
+}
+.zh h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1px 0;
+}
+.zh p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+/*响应式设计语法*/
+@media  screen and (max-width:768px) {
+    header ul {
+        display: none;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .kt h2 {
+        font-size: 20px;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+        height: 6px;
+    }
+    .yuanshu {
+        padding: 40px 50px 10px;
+    }
+    .yuanshu div {
+        width:300px;
+    }
+    .yuanshu img {
+        width: 60%;
+        border-radius: 10px;
+    }
+    .yuanshu h3 {
+        font-size: 15px;
+        margin: 1px 0;
+    }
+    .yuanshu p {
+        font-size: 10px;
+    }
+    .guangye {
+        padding: 40px 50px 10px;
+    }
+    .guangye div {
+        width:300px;
+    }
+    .guangye img {
+        width: 60%;
+        border-radius: 10px;
+    }
+    .guangye h3 {
+        font-size: 15px;
+        margin: 1px 0;
+    }
+    .guangye p {
+        font-size: 10px;
+    }
+    .disan {
+        padding: 40px 50px 10px;
+    }
+    .disan div {
+        width:300px;
+    }
+    .disan img {
+        width: 60%;
+        border-radius: 10px;
+    }
+    .disan h3 {
+        font-size: 15px;
+        margin: 1px 0;
+    }
+    .disan p {
+        font-size: 10px;
+    }
+    .disi {
+        padding: 40px 50px 10px;
+    }
+    .disi div {
+        width:300px;
+    }
+    .disi img {
+        width: 60%;
+        border-radius: 10px;
+    }
+    .disi h3 {
+        font-size: 15px;
+        margin: 1px 0;
+    }
+    .disi p {
+        font-size: 10px;
+    }
+    .diwu {
+        padding: 40px 50px 10px;
+    }
+    .diwu div {
+        width:300px;
+    }
+    .diwu img {
+        width: 60%;
+        border-radius: 10px;
+    }
+    .diwu h3 {
+        font-size: 15px;
+        margin: 1px 0;
+    }
+    .diwu p {
+        font-size: 10px;
+    }
+    .diliu {
+        padding: 40px 50px 10px;
+    }
+    .diliu div {
+        width:300px;
+    }
+    .diliu img {
+        width: 60%;
+        border-radius: 10px;
+    }
+    .diliu h3 {
+        font-size: 15px;
+        margin: 1px 0;
+    }
+    .diliu p {
+        font-size: 10px;
+    }
+    .zh {
+        padding: 40px 50px 60px;
+    }
+    .zh div {
+        width:300px;
+    }
+    .zh img {
+        width: 60%;
+        border-radius: 10px;
+    }
+    .zh h3 {
+        font-size: 15px;
+        margin: 1px 0;
+    }
+    .zh p {
+        font-size: 10px;
+    }
+}

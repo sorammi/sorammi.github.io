@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(255, 234, 240,0.8);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+
+}
+h1 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 70px;
+    background-image: url(images/logo.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    text-indent: -9999999999px;
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+header a {
+    color: rgb(33, 0, 13);
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+    color: rgb(244, 9, 115);
+}
+body {
+    background-color: #ffb6c1;
+}
+.new {
+    background-color: #fd8496;
+    color: rgb(254, 247, 247);
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new p {
+    margin-bottom: 20px;
+}
+.new input,.new button {
+    background-color: transparent;
+    color:rgb(252, 252, 252) ;
+    border: 1px solid #f7fffc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.new input {
+    width: 200px;
+    margin-right: 15px;
+}
+.new button {
+    width: 80px;
+    cursor: pointer;
+}
+input::placeholder {
+    color: #DDDDDD;
+}
+input:focus {
+    outline: none;
+    border-color: rgb(255, 59, 89);
+}
+footer {
+    background-color:rgb(247, 67, 103) ;
+    color: rgb(101, 101, 101);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ab {
+    background-color: #fd8496;
+    margin-top: 120px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 0px;
+    padding: 40px 60px;
+    border-radius: 50px 50px 0px 0px;
+}
+.ab h2 {
+    color: #f7fffc;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+}
+.ab p {
+    color: #f7fffc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+.ab img {
+   margin-left: 160px;
+   border-radius: 50px;
+}
+.b {
+    background-color: #fd8496;
+    margin-top: 0px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 0px;
+    padding: 40px 60px;
+    border-radius: 0px;
+}
+.b p {
+    color: #f7fffc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+.b img {
+   width: 650px;
+   margin-left: 200px;
+   border-radius: 50px;
+}
+.c {
+    background-color: #fd8496;
+    margin-top: 0px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 100px;
+    padding: 40px 60px 100px;
+    border-radius: 0px 0px 50px 50px;
+}
+.c p {
+    color: #f7fffc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+.c img {
+   width: 650px;
+   margin-left: 200px;
+   border-radius: 50px;
+}
+/*响应式设计语法*/
+@media  screen and (max-width:768px) {
+    header ul {
+        display: none;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .ab {
+        width: 65%;
+    }
+    .ab h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .ab p {
+        font-size: 15px;
+    }
+    .ab img {
+        width: 100%;
+        margin-left: 5px;
+    }
+    .b {
+        width: 65%;
+    }
+    .b h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .b p {
+        font-size: 15px;
+    }
+    .b img {
+        width: 100%;
+        margin-left: 3px;
+    }
+    .c {
+        width: 65%;
+    }
+    .c h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .c p {
+        font-size: 15px;
+    }
+    .c img {
+        width: 100%;
+        margin-left: 5px;
+    }
+}
